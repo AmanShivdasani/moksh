@@ -8,8 +8,6 @@ from streamlit_option_menu import option_menu
 import numpy as np
 import pandas as pd
 
-
-
 # loading the saved models
 
 diabetes_model = pickle.load(open('saved models/diabetes_model.sav', 'rb'))
@@ -18,11 +16,8 @@ heart_disease_model = pickle.load(open('saved models/heart_disease_model.sav','r
 
 parkinsons_model = pickle.load(open('saved models/parkinsons_model.sav', 'rb'))
 
-
-
 # sidebar for navigation
 with st.sidebar:
-    
     selected = option_menu('Multiple Disease Prediction System',
                           
                           ['General Symptoms','Diabetes Prediction',
@@ -31,15 +26,11 @@ with st.sidebar:
                            ],
                           icons=['person','activity','heart','cloud'],
                           default_index=0)
-    
-    
+        
 # Diabetes Prediction Page
-if (selected == 'Diabetes Prediction'):
-    
+if (selected == 'Diabetes Prediction'): 
     # page title
     st.title('Diabetes Prediction using ML')
-    
-    
     # getting the input data from the user
     col1, col2, col3 = st.columns(3)
     try:
@@ -66,8 +57,6 @@ if (selected == 'Diabetes Prediction'):
         
         with col2:
             Age = st.text_input('Age of the Person')
-    
-    
         # code for Prediction
         diab_diagnosis = ''
         
@@ -87,8 +76,7 @@ if (selected == 'Diabetes Prediction'):
         print("error")
 if (selected == "Parkinsons Prediction"):
     
-    # page title
-    
+    # page title 
     st.title("Parkinson's Disease Prediction using ML")
     
     col1, col2, col3, col4, col5 = st.columns(5)  
@@ -221,8 +209,6 @@ if (selected == 'Heart Disease Prediction'):
             
         with col1:
             thal = st.text_input('thal: 0 = normal; 1 = fixed defect; 2 = reversable defect')
-     
-     
         # code for Prediction
         heart_diagnosis = ''
         
