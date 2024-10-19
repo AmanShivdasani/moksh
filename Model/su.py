@@ -10,11 +10,11 @@ import pandas as pd
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('savedmodels/diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('Model/savedmodels/diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('savedmodels/heart_disease_model.sav','rb'))
+heart_disease_model = pickle.load(open('Model/savedmodels/heart_disease_model.sav','rb'))
 
-parkinsons_model = pickle.load(open('savedmodels/parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('Model/savedmodels/parkinsons_model.sav', 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
