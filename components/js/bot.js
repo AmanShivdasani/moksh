@@ -45,10 +45,10 @@ function startSpeechRecognition() {
         addUserMessage(spokenText);
 
         // Process the spoken text and generate a response
-        let response = "Hi, I'm Arogyam, an AI assistant.";
+        let response = "Hi, I'm Moksh, an AI assistant.";
 
         switch (spokenText.toLowerCase()) {
-            case "hello.":
+            case "hello":
                 response = "Hello! How can I assist you today?";
                 break;
             case "hey, what's your name?":
@@ -73,20 +73,20 @@ function startSpeechRecognition() {
                 response = "To maintain a heart-healthy lifestyle, focus on a balanced diet rich in fruits, vegetables, whole grains, and lean proteins. Regular exercise is crucial; aim for at least 150 minutes of moderate-intensity aerobic activity per week.Manage stress through relaxation techniques like deep breathing and meditation.Avoid smoking and limit alcohol consumption.Regularly check your blood pressure, cholesterol levels, and maintain a healthy weight.Consult your healthcare provider for personalized advice and monitoring.Option 2: Explore Common Heart Disease Medications";
                 break;
             case "mera naam":
-                response = "mera naam Green Coders hai";
+                response = "mera naam aman hai";
                 break;
                 // Add more test cases and responses here
             case "i love you":
                 response = "I love you too.";
                 break;
             case "hi":
-                response = "Hi, I'm Arogyam , an AI assistant for Healthcare.";
+                response = "Hi, I'm Moksh , an AI assistant for Healthcare.";
                 break;
             case "नमस्ते":
                 response = "मैं अच्छा हूँ,तुम कैसे हो?";
                 break;
-            case "who is Green Coders":
-                response = "Hi, I'm Green Coders assistant";
+            case "who is Aman":
+                response = "Hi, I'm Aman's assistant and he is my developer";
                 break;
             case "What's the recommended daily intake of water for adults?":
                 response = "The recommended daily water intake for adults varies but is typically around 8-10 glasses or 2-2.5 liters.";
@@ -121,7 +121,7 @@ sendButton.addEventListener("click", () => {
 
     addUserMessage(userMessage);
 
-    let response = "Hi, I'm Arogyam, an AI assistant.";
+    let response = "Hi, I'm Moksh, an AI assistant.";
 
     switch (userMessage.toLowerCase()) {
         case "hello.":
@@ -143,19 +143,19 @@ sendButton.addEventListener("click", () => {
             response = "To maintain a heart-healthy lifestyle, focus on a balanced diet rich in fruits, vegetables, whole grains, and lean proteins. Regular exercise is crucial; aim for at least 150 minutes of moderate-intensity aerobic activity per week.Manage stress through relaxation techniques like deep breathing and meditation.Avoid smoking and limit alcohol consumption.Regularly check your blood pressure, cholesterol levels, and maintain a healthy weight.Consult your healthcare provider for personalized advice and monitoring.Option 2: Explore Common Heart Disease Medications";
             break;
         case "mera naam":
-            response = "mera naam Green Coders hai";
+            response = "mera naam aman hai";
             break;
         case "i love you":
             response = "I love you too.";
             break;
         case "hi":
-            response = "Hi, I'm Arogyam, an AI assistant for Healthcare.";
+            response = "Hi, I'm Moksh, an AI assistant for Healthcare.";
             break;
         case "नमस्ते":
             response = "मैं अच्छा हूँ,तुम कैसे हो?";
             break;
         case "who is Green Coders":
-            response = "Hi, I'm Green Coders assistant";
+            response = "Hi, I'm Aman's assistant and he is my developer";
             break;
         case "What's the recommended daily intake of water for adults?":
             response = "The recommended daily water intake for adults varies but is typically around 8-10 glasses or 2-2.5 liters.";

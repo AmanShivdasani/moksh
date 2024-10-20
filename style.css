@@ -440,15 +440,17 @@ body {
 }
 
 .Su {
+    width: auto;
     display: flex;
     position: relative;
     text-align: center;
 }
 
 .background-image {
+
     margin-top: 10%;
     display: flex;
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 
@@ -790,6 +792,8 @@ button {
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
@@ -799,7 +803,10 @@ button {
     border-radius: 4px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
-
+.info label{
+    margin-left: 46%;
+    width:200px;
+}
 
 /* Styling */
 
