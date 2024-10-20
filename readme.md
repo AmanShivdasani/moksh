@@ -1,4 +1,4 @@
-<div style="display:flex;justify-content:center;width:50%">
+<div align="center">
   <img src="./components/images/logo.jpeg">
 </div>
 
@@ -29,6 +29,6 @@ Follow these steps to set up and run the project:
 2. **Open index.html**: Open the 'index.html' file with a live server.
 
 That's it! You have successfully set up and run the project.
-<div style="display:flex;justify-content:center;width:50%">
+<div align="center">
   <img src="./components/images/moksh.png">
 </div>
