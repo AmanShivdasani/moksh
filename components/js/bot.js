@@ -100,6 +100,9 @@ function startSpeechRecognition() {
             case "What are some effective ways to reduce stress?":
                 response = "Effective stress-reduction techniques include deep breathing exercises, meditation, regular exercise, and spending time in nature.";
                 break;
+                case "ok":
+                    response="glad to help";
+                    break;
                 // Add more cases and responses as needed
             default:
                 response = "I'm sorry, I didn't understand that. How can I assist you?";
@@ -124,7 +127,7 @@ sendButton.addEventListener("click", () => {
     let response = "Hi, I'm Moksh, an AI assistant.";
 
     switch (userMessage.toLowerCase()) {
-        case "hello.":
+        case "hello":
             response = "Hello! How can I assist you today?";
             break;
         case "what can you do for me?":
@@ -168,6 +171,9 @@ sendButton.addEventListener("click", () => {
             break;
         case "What are some effective ways to reduce stress?":
             response = "Effective stress-reduction techniques include deep breathing exercises, meditation, regular exercise, and spending time in nature.";
+            break;
+        case "ok":
+            response="glad to help";
             break;
             // Add more cases and responses as needed
         default:
