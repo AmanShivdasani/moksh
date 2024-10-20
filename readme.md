@@ -12,14 +12,14 @@ Medication Availability Check Quickly verify if your prescribed medications are 
 
 Why Choose Us? Our app not only enhances your health management experience but also plays a crucial role in minimizing medical errors. With a focus on accuracy and user-friendliness, we are committed to helping you take control of your well-being.
 
-SETTING UP THE PROJECT
 
-make sure you have PYTHON version 11 or 12
+## How to Use
 
-open the project
+Follow these steps to set up and run the project:
 
-pip install -r requirements.txt
+1. **Install Dependencies**: Run the command to download all the libraries of the Python engine. Use the command `pip install -r requirements.txt`
 
-this will install all the dependency
 
-run the index.html file
+2. **Open index.html**: Open the 'index.html' file with a live server.
+
+That's it! You have successfully set up and run the project.
