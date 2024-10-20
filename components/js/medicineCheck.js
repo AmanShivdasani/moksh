@@ -2,7 +2,8 @@
 const medicines = {
     "Aravadoc": 20,
     "Ibuprofen": 10,
-    "Paracetamol": 15
+    "Paracetamol": 15,
+    "live 52 ds":10
 };
 
 // Function to check medicine availability
