@@ -1,29 +1,4 @@
-/*
- * Green Coders Hackathon Project 
- * C.V. Raman Global University, Bhubaneswar, Odisha, India
- * 
- * Copyright 2024 Sudhanshu Kumar 
- * 
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- * 
- *    http://www.apache.org/licenses/LICENSE-2.0
- * 
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 
-/*
- @preserve
- AgoraRTM Web SDK 1.4.4 - commit: v1.4.4-0-g3d73f979
- Copyright (C) 2018-2021 Agora Lab.
- This file is licensed under the AGORA, INC. SDK LICENSE AGREEMENT
- A copy of this license may be found at https://www.agora.io/en/sdk-license-agreement/
-*/
 "use strict";
 ! function(e, t) { "object" == typeof exports && "undefined" != typeof module ? module.exports = t() : "function" == typeof define && define.amd ? define(t) : (e = "undefined" != typeof globalThis ? globalThis : e || self).AgoraRTM = t() }(this, (function() {
     function de(e, t) {
